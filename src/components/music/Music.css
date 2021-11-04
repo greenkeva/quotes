@@ -1,0 +1,14 @@
+div #Jazz h4{
+padding-bottom: 50px;
+color: white;
+text-align: center;
+background-color: black;
+}
+
+div #Music {
+margin: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
