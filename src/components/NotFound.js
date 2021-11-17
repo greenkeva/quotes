@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function NotFound() {
-    return <> 404 Page Not Found </>
+    return <div color="white"> 404 Page Not Found </div>
 }
 
 export default NotFound;
