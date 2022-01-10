@@ -1,7 +1,6 @@
 FROM jenkins/jenkins:2.319.1-jdk11
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
 COPY . .
 ENV PORT=8080
 EXPOSE 8080
