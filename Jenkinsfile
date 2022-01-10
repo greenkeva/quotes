@@ -5,7 +5,6 @@ pipeline {
             steps {
                 echo 'building'
                 sh 'npm install'
-                sh 'npm install @wojtekmaj/enzyme-adapter-react-17'
     
             }
         }
