@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test-setup": "npm run setup",
+    "test-setup": "cd test && npm run setup",
     "test": "cd test && npm test",
     "eject": "react-scripts eject"
   },
