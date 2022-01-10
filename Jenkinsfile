@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'building'
-                nodejs(nodeJSInstallationName: 'Node 14.x', configId: 'e2c5c70d-bcdc-4609-a49a-678bb2b48c52') {
+                nodejs(nodeJSInstallationName: 'recent node', configId: 'e2c5c70d-bcdc-4609-a49a-678bb2b48c52') {
                     sh 'npm config ls'
                 }
     
