@@ -14,9 +14,9 @@ describe('renders without crashing', function () {
         expect(mountedQuote.length).toBeGreaterThan(0);
     });
 
-    // it('renders a string', () => {
-    //     const quote = mountedQuote.find('h2').text();
-    //     expect(quote.length).toBeGreaterThan(0);
-    // });
+    it('renders a string', () => {
+        const quote = mountedQuote.find('h2').text();
+        expect(quote.length).toBeGreaterThan(0);
+    });
     
 });
