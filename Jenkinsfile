@@ -14,14 +14,12 @@ pipeline {
                 sh 'npm install @wojtekmaj/enzyme-adapter-react-17'
     
             }
-
+        }
         stage('test') {
             steps {
                 echo 'testing'
                 sh 'npm test'
             }
-        }
-
         }
     }
 }
