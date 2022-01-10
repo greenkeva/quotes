@@ -13,7 +13,9 @@ pipeline {
         stage('test') {
             steps {
                 echo 'testing'
-                sh 'npm test'
+                nodejs(nodeJSInstallationName: 'recent test', configId: 'e2c5c70d-bcdc-4609-a49a-678bb2b48c52') {
+                    sh 'npm config ls'
+                }
             }
         }
     }
