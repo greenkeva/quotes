@@ -1,0 +1,12 @@
+name: quotes
+  memory: 
+  disk_quota: 
+  path: /quotes/quotes
+  buildpack: nodejs_buildpack
+  host: dailyquotes
+  domain: mybluemix.net
+  command: npm start
+  timeout: 80
+  services:
+  env:
+    env_type: deployment
