@@ -1,9 +1,9 @@
 name: quotes
   memory: 
   disk_quota: 
-  path: /quotes/quotes
+  path: /workspace/fd950e0c-68a9-450f-b492-322a9cd5a473/manifest.yml
   buildpack: nodejs_buildpack
-  host: dailyquotes
+  host: dailyq
   domain: mybluemix.net
   command: npm start
   timeout: 80
