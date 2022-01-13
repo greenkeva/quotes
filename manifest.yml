@@ -4,7 +4,7 @@ name: quotes
   path: /workspace/fd950e0c-68a9-450f-b492-322a9cd5a473/manifest.yml
   buildpack: nodejs_buildpack
   host: quotes
-  domain: mybluemix.net
+  domain: apic.mybluemix.net
   command: npm start
   timeout: 80
   services:
